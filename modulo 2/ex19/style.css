@@ -1,0 +1,46 @@
+body{
+    background-color: #7ede79;
+}
+
+main{
+    background-color:#43ad4c ;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: #60c562 5px 5px 3px;
+}
+
+h1{
+    text-align: left;
+    color: #7ede79;
+}
+
+h1#principal{
+    text-align: center;
+    color: black;
+    background-color: #ffffff41;
+}
+
+.basico{
+    color: blue;
+    font-weight: bolder;
+}
+
+.intermediario{
+    color: red;
+    font-weight: bolder;
+}
+
+.avancado{
+    color: aqua;
+    font-weight: bolder;
+}
+
+*{
+    font-style: italic;
+}
+
+.destaque{
+    background-color: white;
+}

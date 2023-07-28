@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to right,#850000, #B50000,#850000);
+    margin: 0;
+    height: 150px;
+    box-shadow: 1px 1px 3px black;
+}
+
+h1#title{
+    font-size: 2em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+    top: 30%;
+}
+
+nav>a{
+    color: white;
+    text-decoration: none;
+    margin-left: 2.5%;
+    position: relative;
+    top: 60px;
+}
+
+main{
+    text-align: center;
+
+    
+}
+
+/* Correção do espaçamento residual */
+main::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.turma{
+   border-style: solid;
+   text-align: center;
+   margin: 10px;
+   border-radius: 10px;
+   border-width: 1px;
+   box-shadow: 1px 1px 2px black; 
+   vertical-align: top;
+}
+
+.turma>h1{
+    background-color: #863636;
+    color: white;
+    margin-top: 0;
+    border-top-left-radius: 8.6px;
+    border-top-right-radius: 8.6px;
+    box-shadow: 1px 1px 3px black;
+    text-shadow: 1px 2px 3px black;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+div.turma{
+    display: inline-block;
+    width: 350px;
+    height: 300px;
+    
+}
+

@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'love';
+    src: url(fonts/dianazetta/Diana\ Zetta.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: 'love', 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
